@@ -10,6 +10,8 @@ on:
 jobs:
     validate-build-deploy:
         runs-on: ubuntu-latest
+        permissions:
+            contents: write
         steps:
 
             -   name: Checkout 🛎️
